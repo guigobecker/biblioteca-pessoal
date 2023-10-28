@@ -33,6 +33,9 @@ const form = reactive({
             v-model="form.titulo"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
+          <div v-if="errors.name">
+            <span class="text-sm text-red-400">{{ errors.name[0] }}</span>
+          </div>
         </div>
         <div class="mb-6">
           <label
@@ -46,6 +49,9 @@ const form = reactive({
             v-model="form.autor"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
+          <div v-if="errors.autor">
+            <span class="text-sm text-red-400">{{ errors.autor[0] }}</span>
+          </div>
         </div>
         <div class="mb-6">
           <label
@@ -59,6 +65,9 @@ const form = reactive({
             v-model="form.classificacao"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
+          <div v-if="errors.classificacao">
+            <span class="text-sm text-red-400">{{ errors.classificacao[0] }}</span>
+          </div>
         </div>
 
         <label
@@ -72,6 +81,9 @@ const form = reactive({
           rows="4"
           class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
         ></textarea>
+        <div v-if="errors.resenha">
+          <span class="text-sm text-red-400">{{ errors.resenha[0] }}</span>
+        </div>
       </div>
       <button
         type="submit"

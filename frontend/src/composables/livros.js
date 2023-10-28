@@ -6,7 +6,7 @@ axios.defaults.baseURL = "http://localhost:8000/api/";
 
 export default function useLivros() {
   const livros = ref([]);
-  const livro = ref({});
+  const livro = ref([]);
   const errors = ref([]);
   const router = useRouter();
 

@@ -20,13 +20,14 @@ const router = createRouter({
     },
 
     {
-      path: '/:id',
+      path: '/:id/show',
       name: 'show',
-      component: LivroShowView
+      component: LivroShowView,
+      props: true
     },
 
     {
-      path: '/edit/:id',
+      path: '/:id/edit',
       name: 'edit',
       component: LivroEditView
     }

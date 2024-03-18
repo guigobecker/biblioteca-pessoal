@@ -2,7 +2,7 @@
 
 Escreva resenhas e avaliações de livros.
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
 <li>JavaScript</li>
 <li>Vue.js</li>

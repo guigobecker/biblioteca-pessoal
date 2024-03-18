@@ -10,10 +10,6 @@ Escreva resenhas e avaliações de livros.
 <li>Tailwind</li>
 <li>Laravel</li>
 
-### Acessar
-
-<li>Acesse em <a href="https://biblioteca-pessoal-v2.vercel.app/">biblioteca-pessoal-v2.vercel.app</a>.</li>
-
 ### Preview
 
 ![image](https://github.com/guigobecker/biblioteca-pessoal-v2/assets/114083952/d2954d7f-1266-4f18-9f02-e5d5a0024379)
